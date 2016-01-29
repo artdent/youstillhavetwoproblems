@@ -4,9 +4,11 @@ youstillhavetwoproblems.py
 Converts regular expressions from Python to Java or Javascript.
 
 Usage:
-    >>> import youstillhavetwoproblems
-    >>> youstillhavetwoproblems.to_java('{I got 99 problems}')
-    '\\{I got 99 problems\\}'
+```
+>>> import youstillhavetwoproblems
+>>> youstillhavetwoproblems.to_java('{I got 99 problems}')
+'\\{I got 99 problems\\}'
+```
 
 This module works by translating the output of the internal sre_parse module.
 The output of to_python is not guaranteed to match the input: for example,
